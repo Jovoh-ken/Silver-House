@@ -16,6 +16,31 @@
     margin: 0 auto;
 }
 
+/* HOVER */
+
+ul li a {
+    position: relative;
+    padding-bottom: 4px;
+}
+
+ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #8C8A8A;
+    transition: width 0.3s ease;
+    border-radius: 2px;
+}
+
+ul li a:hover::after {
+    width: 100%;
+}
+
+
+
 /* HEAEDER */
 
 .nav {
