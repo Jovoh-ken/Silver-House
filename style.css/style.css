@@ -16,6 +16,7 @@
     margin: 0 auto;
 }
 
+/* HEAEDER */
 
 .nav {
     display: flex;
@@ -43,11 +44,15 @@
     color: #8C8A8A;
 }
 
+/* INTRO */
+
 .intro {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* SECTION'S */
 
 .section_first {
     display: flex;
@@ -113,7 +118,7 @@
 }
 
 
-
+/* FOOTER */
 
 .footer {
     display: flex;
