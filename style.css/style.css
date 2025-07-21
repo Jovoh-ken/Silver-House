@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    gap: 79px;
+}
+
+.nav_link {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+
+}
+
+.nav_links {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #8C8A8A;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_first {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+
+.page1 {
+    background: #F0F0F0;
+    width: 730px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px 40px;
+}
+
+.section_title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #4581B7;
+}
+
+
+.section_tex {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #808080;
+}
+
+.page2 {
+    background: #F0F0F0;
+    width: 350px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px 40px;
+}
+
+
+.section_title_second {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #4581B7;
+}
+
+
+
+.section_tex_second {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #808080;
+}
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    background: #F0F0F0;
+    padding: 15px 40px;
+    margin-bottom: 50px;
+}
+
+.footer_right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: right;
+}
+
+.footer_tex_bottom {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #808080;
+}
+
+.footer_tex_top {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #808080;
+}
