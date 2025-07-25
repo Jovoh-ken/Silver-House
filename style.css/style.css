@@ -128,7 +128,6 @@ ul li a:hover::after {
     font-weight: 700;
     font-size: 20px;
     line-height: 100%;
-    letter-spacing: 0%;
     color: #4581B7;
 }
 
@@ -138,7 +137,6 @@ ul li a:hover::after {
     font-weight: 400;
     font-size: 16px;
     line-height: 27px;
-    letter-spacing: 0%;
     color: #808080;
 }
 
