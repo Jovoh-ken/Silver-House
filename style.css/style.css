@@ -92,8 +92,8 @@ ul li a:hover::after {
     text-align: left;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding: 40px 98px 95px 50px;
+    gap: 25px;
+    padding: 40px 95px 51px 50px;
 }
 
 .section_title {
@@ -119,8 +119,8 @@ ul li a:hover::after {
     text-align: left;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding: 50px 40px;
+    gap: 25px;
+  padding: 50px 24px 0 40px;
 }
 
 
@@ -152,7 +152,6 @@ ul li a:hover::after {
     margin-top: 30px;
     background: #F0F0F0;
     padding: 15px 40px;
-    margin-bottom: 50px;
 }
 
 .footer_right {
@@ -167,6 +166,7 @@ ul li a:hover::after {
     font-size: 25px;
     line-height: 100%;
     color: #808080;
+    text-decoration: none;
 }
 
 .footer_tex_top {
